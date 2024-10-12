@@ -1,6 +1,6 @@
 import Image from "./components/Image.jsx";
 
-export default function Image() {
+export default function image() {
     return (
         <image className="image">
             <a href="favorite-1.jpg"><img src="favorite-1_th.jpg" alt="Small black bird, black claws, long black slender beak, links to larger version of the image"/></a>

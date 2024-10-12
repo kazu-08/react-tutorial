@@ -1,3 +1,5 @@
+import Image from "./components/Image.jsx";
+
 export default function Image() {
     return (
         <image className="image">

@@ -1,4 +1,4 @@
-import Image from "./components/Image";
+import Image from "Image";
 
 export default function Main() {
     return (

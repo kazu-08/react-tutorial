@@ -5,7 +5,7 @@ export default function Main() {
         <main className="main">
            <h2>Favourite photos</h2>
            <div>
-            <Imege/>
+            <Image/>
            </div>
         </main>
     );

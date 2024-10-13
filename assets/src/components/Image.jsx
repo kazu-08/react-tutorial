@@ -1,4 +1,4 @@
-import Image from "./components/Image.jsx";
+import Image from "Image.jsx";
 
 export default function image() {
     return (

@@ -1,15 +1,86 @@
-#content > div > * {
-    background-color: blueviolet;
+/*#content > div > * {
+    background-color: red;
     padding: 1%;
   }
+ 
   
-  #content main,
-  #content header,
-  #content nav,
-  #content article,
-  #content aside,
-  #content footer,
-  #content section {
+#content main,
+#content header,
+#content nav,
+#content article,
+#content aside,
+#content footer,
+#content section,
+#content nabimenu,
+#content welcome {
+    background-color: rgba(0, 142, 0, 0.5);
+    padding: 1%;
+}
+    */
+
+
+.FlexBox1 {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    background-color: rgba(0, 142, 0, 0.5);
+}
+
+.FlexBox2 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 700px 1fr;
+    background-color: rgba(0, 142, 0, 0.5);
+}
+
+#content main,
+#content welcome {
     background-color: rgba(0, 255, 0, 0.5);
     padding: 1%;
-  }
+}
+
+#content footer {
+    background-color: rgba(0, 142, 0, 0.5);
+}
+
+#content header h1 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#content header img{
+    float:right;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 50px;
+}
+
+#content nabimenu ul{
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgba(0, 255, 0, 0.5);
+    justify-content: space-around;
+}
+#content nabimenu ul > li {
+    list-style-type: none;
+}
+#content nabimenu ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#content .image {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#content .image > .img-item {
+    width: 100%;
+    object-fit: cover;
+}

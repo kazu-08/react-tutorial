@@ -7,11 +7,17 @@ import Nabimenu from "./components/Nabimenu";
 export default function App() {
   return (
     <div>
-      <Header />
-      <Main />
-      <Welcome/>
-      <Nabimenu/>
+    <div class="FlexBox1">
+      <Header class="flex-item11"/>
+      <Nabimenu class="flex-item12"/>
+    </div>
+    <div class="FlexBox2">
+      <Welcome class="flex-item21"/>
+      <Main class="flex-item22"/>
+    </div>
+    <div>
       <Footer />
+    </div>
     </div>
   );
 }
